@@ -15,6 +15,7 @@ public:
 
 private:
 	Ui::gui_Budget ui;
+	//tried using arrays to define buttons in a loop/function (prepareButtons), couldn't get the assignment to work
 	QString buttonNames[9];
 	QPushButton *arrButtons[9];
 	//QGroupBox *autoGroupBox;

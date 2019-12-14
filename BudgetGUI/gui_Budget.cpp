@@ -12,7 +12,7 @@ gui_Budget::gui_Budget(QWidget *parent)
 {
 	ui.setupUi(this);
 
-	//prepareButtons();
+	//prepareButtons(); - this didn't work like I wanted
 
 	
 

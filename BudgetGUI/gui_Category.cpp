@@ -8,6 +8,7 @@ gui_Category::gui_Category(QWidget *parent)
 	ui.setupUi(this);
 }
 
+//constructor with string so we know what category info will fill in this gui
 //gui_Category::gui_Category(std::string mainLabel)
 //{
 //	//gui_Category(QWidget * parent = Q_NULLPTR);

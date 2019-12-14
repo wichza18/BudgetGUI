@@ -7,7 +7,6 @@
 #include "gui_Category.h"
 
 
-//bool hidePassword = true; //class level bool to trigger whether or not we should hide password
 std::string username = ""; //class level username to store user input
 std::string password = ""; //class level password to store user input
 
@@ -44,13 +43,6 @@ gui_Login::~gui_Login()
 }
 
 
-//void gui_Login::keyEntered(QLineEdit lineEditOfEvent)
-//{
-//	QString lineEditText = lineEditOfEvent.text();
-//	
-//}
-
-
 void gui_Login::unhidePressed()
 {
 	passwordLine->setEchoMode(QLineEdit::Normal);
@@ -70,7 +62,7 @@ void gui_Login::loginPressed()
 	//**need to add function here to query user from database
 	//query user from database
 
-	//include Budget class in gui_Budget constructor
+	//wanted to include Budget class in gui_Budget constructor but that was causing issues
 	gui_Budget budgetUI;
 	budgetUI.setModal(true);
 	budgetUI.exec();

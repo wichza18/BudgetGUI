@@ -12,7 +12,6 @@ class gui_Login : public QWidget
 
 public:
 	gui_Login(QWidget *parent = Q_NULLPTR);
-	//void gui_Login::on_pushButton_Login_clicked();
 	~gui_Login();
 
 private:
@@ -21,10 +20,9 @@ private:
 	QPushButton *unhideButton;
 	QLineEdit *usernameLine;
 	QLineEdit *passwordLine;
-	//void gui_Login::flipHiddenPassword();
 
 private slots:
 	void unhidePressed();
 	void loginPressed();
-	//void keyEntered(QLineEdit eventSpace);
+
 };
